@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎵 Free Music Library</h1>
+
+    <nav>
+        <input type="text" id="search" placeholder="Search songs...">
+        <select id="genreFilter">
+            <option value="all">All Genres</option>
+            <option value="Afrobeats">Afrobeats</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="Instrumental">Instrumental</option>
+            <option value="Gospel">Gospel</option>
+        </select>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<main>
+    <div id="music-library" class="music-grid"></div>
+</main>
+
+<script src="js/library.js"></script>
+</body>
+</html>
